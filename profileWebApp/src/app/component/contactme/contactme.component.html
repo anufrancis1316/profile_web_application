@@ -1,0 +1,27 @@
+
+<div id="header-adjust">
+
+<div class="contact-form">
+    <h2>Contact Us</h2>
+  
+    <form #contactForm="ngForm" (ngSubmit)="onSubmit()">
+      
+        <h3>First Name : <input type="text" name="firstName" placeholder ="First Name" required ngModel/></h3><br/>
+        <h3>Last Name : <input type="text" name="lastName" placeholder ="Last Name" required ngModel/></h3><br/>
+        <h3>Email  : <input type="text" name="email" placeholder ="Email" required ngModel/></h3><br/>
+    
+        <h3>Phone Number  : <input type="number" name="phone" placeholder ="phone"  required ngModel/></h3><br/>
+        <h3>Description   : <input type="text" name="description" placeholder ="Description" required ngModel/></h3><br/>
+  
+      <button type="submit" [disabled]="!contactForm.form.valid">Submit</button>
+    </form>
+  </div>
+</div>
+
+  
+  
+
+
+
+
+

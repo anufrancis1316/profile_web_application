@@ -1,0 +1,17 @@
+#tab-design{
+    border: blue;
+    block-size:1%;
+}
+td{
+    color: aliceblue;
+    font-style:calc();
+    font-size:larger;
+}
+
+table { 
+    border-collapse: separate; /* This is important for border-spacing to work */
+    border-spacing: 50px; /* Adjust this value for the desired gap */ 
+    border:1ch;
+    background-color:darkslategray;
+    
+}

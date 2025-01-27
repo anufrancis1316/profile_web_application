@@ -1,0 +1,40 @@
+.contact-form {
+    max-width: 500px;
+    height: 20%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5%;
+  }
+  
+  .contact-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .contact-form small {
+    color: red;
+  }
+  
+  .contact-form button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius:1%;
+    cursor: pointer;
+  }
+  
+  .contact-form button:disabled {
+    background-color: #ccc;
+  }
+  
